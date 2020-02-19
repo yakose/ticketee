@@ -2,7 +2,7 @@ default: &default
    adapter: postgresql
    encoding: unicode
   
-
+cd 
 
 development:
   adapter: postgresql

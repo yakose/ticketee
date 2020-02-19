@@ -19,6 +19,10 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
+
+
+# gem 'dynamic_form'
+gem 'dynamic_form'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -62,6 +66,7 @@ group :test do
   gem 'chromedriver-helper'
   gem 'cucumber-rails'
   gem 'database_cleaner'
+  gem 'factory_bot'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
